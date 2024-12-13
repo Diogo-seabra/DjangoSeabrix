@@ -39,7 +39,7 @@ Seabrix | {{ object.titulo }}
             </div>
         </div>
     </section>
-
+    {% if filmes_relacionados %}
     <section class='bg-primary_black flex justify-center py-10'>
         <div class="p-8 w-10/12 relative" >
             <h2 class="text-gray-200 text-2xl font-medium">
@@ -56,6 +56,7 @@ Seabrix | {{ object.titulo }}
             </div>
         </div>
     </section>
+    {% endif %}
 
 </main>
 
