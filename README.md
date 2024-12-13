@@ -2,11 +2,11 @@
 
 Este projeto é uma cópia funcional da Netflix desenvolvida para fins acadêmicos. Ele foi criado utilizando Django e integra várias tecnologias modernas, destacando-se pela implementação de Class-Based Views, estilização avançada e autenticação de usuários.
 
-## Caso queira testar esse projeto funcionando de forma online
+## 🌐 Caso queira testar esse projeto funcionando de forma online
 
-<a href="https://djangoseabrix-production.up.railway.app/" target="_blank">Clique aqui para acessar</a>
+[Clique aqui para acessar](https://djangoseabrix-production.up.railway.app/ "target=_blank")
 
-## Descrição
+## 📝 Descrição
 
 O objetivo principal foi replicar aspectos fundamentais de plataformas de streaming como a Netflix. O projeto inclui:
 
@@ -15,14 +15,14 @@ O objetivo principal foi replicar aspectos fundamentais de plataformas de stream
 * Gerenciamento de conteúdo: CRUD de filmes com imagens e descrições. (É possível criar novos filmes e séries a partir do admin do Django)
 * Banco de dados: Integração com PostgreSQL.
 
-## Recursos Principais
+## 🛠️ Recursos Principais
 
 * **Class-Based Views:** Simplificação da lógica de controle e melhor organização.
 * **Autenticação de Usuário:** Sistema de login e logout com segurança.
 * **Banco de Dados Relacional:** Estruturação eficiente para manipulação de dados de filmes.
 * **Estilização Responsiva:** Interfaces otimizadas para diferentes dispositivos.
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ProjetoSeabrixDJango/ <br>
 │ <br>
@@ -41,7 +41,7 @@ ProjetoSeabrixDJango/ <br>
 * Ambiente virtual configurado.
 
 
-## Caso queira testar esse projeto de forma local, siga o passo a passo de instalação e execução no VS Code
+## 🚀 Caso queira testar esse projeto de forma local, siga o passo a passo de instalação e execução:
 
 1. Clone o repositório:
    ```bash
@@ -79,11 +79,11 @@ ProjetoSeabrixDJango/ <br>
 8. Acesse o painel administrativo: <br>
    Abra seu navegador e acesse http://127.0.0.1:8000/admin/ para fazer login com as credenciais do seu superusuário. E então, adicione os filmes e séries de sua preferência que serão exibidos no site.
 
-## Contribuições
+## 🫂 Contribuições
 
 Contribuições são bem-vindas! Por favor, envie suas sugestões ou pull requests.
 
-## Autor
+## 👤 Autor
 
 Desenvolvido por Diogo Seabra.
 
