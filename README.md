@@ -77,7 +77,9 @@ ProjetoSeabrixDJango/ <br>
    python manage.py runserver
    
 8. Acesse o painel administrativo: <br>
-   Abra seu navegador e acesse http://127.0.0.1:8000/admin/ para fazer login com as credenciais do seu superusuário. E então, adicione os filmes e séries de sua preferência que serão exibidos no site.
+   Abra seu navegador e acesse http://127.0.0.1:8000/admin/ para fazer login com as credenciais do seu superusuário. E então, adicione os filmes e séries de sua preferência que serão exibidos no site
+   ![image](https://github.com/user-attachments/assets/c5f55573-564c-4b41-b2aa-5374483aa826)
+
 
 ## 🫂 Contribuições
 
