@@ -68,9 +68,17 @@ ProjetoSeabrixDJango/ <br>
    ````bash
    python manage.py migrate
 
-6. Inicie o servidor:
+6. Crie um superusuário:
+   ````bash
+   python manage.py createsuperuser
+
+7. Inicie o servidor:
    ````bash
    python manage.py runserver
+   
+8. Acesse o painel administrativo:
+   Abra seu navegador e acesse http://127.0.0.1:8000/admin/ para fazer login com as credenciais do seu superusuário. E então, adicione os filmes e séries de sua preferência que serão exibidos no site.
+
 
 
 ## Contribuições
