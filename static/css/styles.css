@@ -1,0 +1,80 @@
+$itemGrow: 1.2;
+
+$duration: 250ms;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+h1 {
+  font-family: Arial;
+  color: red;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex; /* Altere de grid para flex */
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+  section {
+      flex: 0 0 100%; /* Cada seção ocupa 100% da largura do carrossel */
+      display: flex; /* Mantém os itens alinhados */
+      justify-content: center; /* Centraliza os itens */
+}
+
+    .item {
+        flex: 0 0 auto; /* Garante que cada item dentro de um container flex não "quebre" */
+        padding: 0 10px; /* Ajuste o padding se necessário */
+        transition: transform $duration ease-in-out; /* Adicione easing para transições mais suaves */
+    }
+
+      .item:hover {
+        transform: scale($itemGrow); /* Mantém o scale */
+        margin: 0; /* Remova as margens para evitar deslocamento indesejado */
+    }
+
+    }
+
+    a {
+      /* position: absolute; */
+      color: #fff;
+      text-decoration: none;
+      font-size: 6em;
+      background:rgb(0,0,0);
+      text-align: center;
+      z-index: 1;
+
+    }
+
+    &>a:first-child {
+      position: absolute;
+        left:0;
+        background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      }
+      &>a:last-child {
+        position: absolute;
+        right: 0;
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      }
+  }
+}
+
+nav {
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+// Remove the arrow for Mobile
+@media only screen and (max-width: 600px) {
+  a.arrow__btn {
+    display:none;
+  }
+}
+
