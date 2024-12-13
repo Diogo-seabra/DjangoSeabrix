@@ -79,8 +79,6 @@ ProjetoSeabrixDJango/ <br>
 8. Acesse o painel administrativo: <br>
    Abra seu navegador e acesse http://127.0.0.1:8000/admin/ para fazer login com as credenciais do seu superusuário. E então, adicione os filmes e séries de sua preferência que serão exibidos no site.
 
-
-
 ## Contribuições
 
 Contribuições são bem-vindas! Por favor, envie suas sugestões ou pull requests.
