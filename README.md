@@ -4,7 +4,7 @@ Este projeto é uma cópia funcional da Netflix desenvolvida para fins acadêmic
 
 ## Caso queira testar esse projeto funcionando de forma online
 
-[Clique aqui para acessar](https://djangoseabrix-production.up.railway.app/)
+<a href="https://djangoseabrix-production.up.railway.app/" target="_blank">Clique aqui para acessar</a>
 
 ## Descrição
 
