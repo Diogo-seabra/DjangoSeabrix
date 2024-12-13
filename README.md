@@ -45,11 +45,11 @@ ProjetoSeabrixDJango/ <br>
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Diogo-seabra/ProjetoSeabrixDJango.git
+   git clone https://github.com/Diogo-seabra/DjangoSeabrix.git
 
 2. Navegue até a pasta:
    ```bash
-   cd ProjetoSeabrixDJango
+   cd DjangoSeabrix
    
 3. Crie um ambiente virtual:
    ````bash
