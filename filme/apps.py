@@ -5,6 +5,7 @@ class FilmeConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'filme'
 
+# Comente a função abaixo para testar localmente
     def ready(self):
         from .models import Usuario
         import os
