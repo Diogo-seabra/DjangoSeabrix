@@ -23,15 +23,55 @@ O objetivo principal foi replicar aspectos fundamentais de plataformas de stream
 * **Estilização Responsiva:** Interfaces otimizadas para diferentes dispositivos.
 
 ## 📂 Estrutura do Projeto
-
-ProjetoSeabrixDJango/ <br>
-│ <br>
-├── filme/               # App principal do projeto.  <br>
-├── static/              # Arquivos CSS, JavaScript e imagens. <br>
-├── templates/           # Templates HTML reutilizáveis. <br>
-├── seabrix/             # Configurações principais do projeto Django. <br>
-├── requirements.txt     # Dependências do projeto. <br>
-└── Procfile             # Configurações para deploy no Railway. <br>
+```
+Diogo-seabra-DjangoSeabrix/
+    ├── manage.py
+    ├── seabrix/ # Configurações principais do projeto Django.
+    │   ├── settings.py
+    │   ├── __init__.py
+    │   ├── urls.py
+    │   ├── asgi.py
+    │   └── wsgi.py
+    ├── requirements.txt  # Dependências do projeto.
+    ├── runtime.txt
+    ├── filme/    # App principal do projeto.
+    │   ├── models.py
+    │   ├── __init__.py
+    │   ├── novos_context.py
+    │   ├── urls.py
+    │   ├── tests.py
+    │   ├── apps.py
+    │   ├── migrations/
+    │   │   ├── __init__.py
+    │   │   └── 0001_initial.py
+    │   ├── forms.py
+    │   ├── templatetags/
+    │   │   ├── __init__.py
+    │   │   └── filtros.py
+    │   ├── admin.py
+    │   ├── views.py
+    │   └── templates/
+    │       ├── homefilmes.html
+    │       ├── logout.html
+    │       ├── detalhesfilme.html
+    │       ├── login.html
+    │       ├── detalhesserie.html
+    │       ├── criarconta.html
+    │       ├── homepage.html
+    │       ├── editarperfil.html
+    │       └── pesquisa.html
+    ├── LICENSE
+    ├── README.md
+    ├── templates/  # Templates HTML reutilizáveis.
+    │   ├── base.html
+    │   └── navbar.html
+    ├── Procfile   # Configurações para deploy no Railway.
+    └── static/  # Arquivos CSS, JavaScript e imagens.
+        ├── thumb_filmes/
+        ├── images/
+        └── css/
+            └── styles.css
+```
 
 ## Pré-requisitos
 
